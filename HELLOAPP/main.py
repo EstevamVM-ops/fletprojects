@@ -1,15 +1,15 @@
 import flet as ft
     # lista de emojis que irão aparecer no app
     # essa lista pode ser ampliada , o aplicativo
-    Emoji =[ ,,,,,]
+EMOJIS =[ "a","b","c","d","e",]
 
 
 
 
 
-    IDX = 0 
+IDX = 0 
 
-    def main(page:  ft.Page):
+def main(page:  ft.Page):
         # ------configurações da página
         #editar a titulo  da janela/aba do navegador/nome do app
         page.title = 'EmojiApp' 
@@ -53,7 +53,7 @@ import flet as ft
             ]
         )
 
-        page.add{row}
+      
 
 if __name__ == '__name__':
 
